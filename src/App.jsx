@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Github } from 'lucide-react';
 import LoginPage from "./pages/LoginPage"
 import SignUpPage from "./pages/SignUpPage"
@@ -14,7 +14,7 @@ export default function App() {
   return (
     <AuthProvider>
       <div className="custom-background">
-        <Router>
+        <HashRouter>
           <Routes>
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
@@ -28,7 +28,7 @@ export default function App() {
             />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </Router>
+        </HashRouter>
       </div>
       <Toaster
         position="bottom-center"
