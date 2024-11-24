@@ -61,7 +61,3 @@ Before you begin, ensure you have the following installed:
 - Responsive design
 - Loading states and animations
 
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
