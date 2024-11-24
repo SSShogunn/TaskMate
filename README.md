@@ -30,8 +30,6 @@ Before you begin, ensure you have the following installed:
 2. **Install dependencies**
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. **Environment Variables**
@@ -51,8 +49,6 @@ Before you begin, ensure you have the following installed:
 4. **Start the development server**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
    The application will start running at `http://localhost:5173`
